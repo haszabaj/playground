@@ -1,0 +1,130 @@
+.bg-1 {
+  background: -webkit-linear-gradient(to left, #808080, #3fada8);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #808080, #3fada8);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: rgba(0, 0, 5, 0.48);
+  border: #808080;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover, .navbar-light .navbar-toggler:focus, .navbar-light .navbar-toggler:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-toggler {
+  color: rgba(0, 0, 5, 0.48);
+}
+
+.bg-2 {
+  background: #f9fffd;
+  color: #474139;
+}
+
+.content-container {
+  min-height: 30vh;
+}
+
+.text {
+  font-family: 'Khula', sans-serif;
+}
+
+.header {
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+#container1 {
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+}
+
+.logo {
+  margin-bottom: 10%;
+}
+
+#container2 {
+  text-align: center;
+  padding-top: 0%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+}
+
+#container3 {
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 5%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+}
+
+.profilepic {
+  padding-bottom: 5%;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.flex-item {
+  -webkit-flex: 0 0 20%;
+  flex: 0 0 20%;
+  margin-top: 5%;
+}
+
+.row {
+  padding-bottom: 5%;
+}
+
+.form {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.form-group {
+  margin-top: 10%;
+}
+
+.disclaimer {
+  padding-left: 5%;
+}
+
+.btn-success {
+  background: transparent;
+  border: transparent;
+  color: rgba(0, 0, 5, 0.48);
+}
+
+.btn-success:hover {
+  background: rgba(0, 0, 5, 0.48);
+  color: #f9fffd;
+}
+
+.printscreen {
+  zoom: 2;
+  display: inline-block;
+  margin: auto;
+  height: auto;
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
+}
+
+.assets-wrap {
+  background-size: 300px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}

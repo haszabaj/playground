@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Khula:300'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <head>
+<link href="https://fonts.googleapis.com/css?family=Khula:300" rel="stylesheet"></head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<!-- navbar -->
+<nav class="navbar navbar-toggleable-md navbar-light bg-1 text fixed-top">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#"><strong>Agata's</strong> Portfolio</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#container1">Who am I?</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#container2">My work</a>
+      </li>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#container3">Contact me</a>
+      </li>        
+    </ul>
+   </div>
+</nav>
+
+
+<!-- container 1 -->
+<div class="container-fluid bg-1 content-container" id="container1">
+  <div class="profilepic">
+    <img class="rounded-circle img-responsive" src="http://res.cloudinary.com/dov9udnhw/image/upload/v1489696216/profile_zbuojw.jpg" alt="Me in the mountains" width="300" height="300">
+  </div>
+  <div class="text">
+    <p>I am a 25 year old beginner front end developer. This place will hopefully be a collection of my work and a testimony of my skills.</p>
+  </div>
+</div>
+  
+<!-- container 2 -->
+<div class="container-fluid content-container bg-2" id="container2">
+  <div class="text header">
+  <h2 class="thick">My work</h2>
+    </div>
+  <div class="row">
+    <div class="col-md-4 offset-md-2">
+      <a target="_blank" href="https://codepen.io/haszabaj/"><img src="http://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-Black-Large.png" alt="codepen" class="img-responsive" width="200" class="logo"></a>
+    </div>
+    <div class="col-md-4">
+       <a target="_blank" href="https://github.com/haszabaj"><img src="https://www.shareicon.net/download/2016/08/13/808566_media.svg" alt="codepen" class="img-responsive" width="200" class="logo"></a>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="flex-container col-md-12">
+      <div class="flex-item bg-1">
+      <a target="_blank" href="http://codepen.io/haszabaj/pen/ZeKpdq"><img src="http://res.cloudinary.com/dov9udnhw/image/upload/v1489765027/Untitled_q64rah.png" height="512"></a>
+      </div>
+       <div class="flex-item bg-1">
+      <a target="_blank" href=""><img src="https://image.flaticon.com/icons/png/512/37/37232.png"></a>
+      </div>
+      <div class="flex-item bg-1">
+      <a target="_blank" href=""><img src="https://image.flaticon.com/icons/png/512/37/37232.png"></a>
+      </div>      
+       <div class="flex-item bg-1">
+      <a target="_blank" href=""><img src="https://image.flaticon.com/icons/png/512/37/37232.png"></a>
+      </div>
+       <div class="flex-item bg-1">
+      <a target="_blank" href=""><img src="https://image.flaticon.com/icons/png/512/37/37232.png"></a>
+      </div>    
+       <div class="flex-item bg-1">
+      <a target="_blank" href=""><img src="https://image.flaticon.com/icons/png/512/37/37232.png"></a>
+      </div>
+       <div class="flex-item bg-1">
+      <a target="_blank" href=""><img src="https://image.flaticon.com/icons/png/512/37/37232.png"></a>
+      </div>    
+            
+
+  </div>
+    </div>
+</div>
+  
+<!-- container 3 -->
+<div class="container-fluid content-container bg-1 text" id="container3">
+   <div class="thick text">
+  <h3>Contact</h3>
+  </div>
+  <div class="form">
+        <form action="mailto:hushabye92@gmail.com" method="post" enctype="text/plain">
+    <div class="controls">
+    <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="form-group">
+                    <label for="form_name">Who are you?</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Your name goes here" required="required" data-error="I'll need your name">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+    </div>
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="form-group">
+                    <label for="form_email">What's your adress?</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Your email goes here" required="required" data-error="I'll need your email adress">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+         </div>
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="form-group">
+                    <label for="form_message">What do you have to say?</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Your message for me" rows="4" required="required" data-error="Please,leave me a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <input type="submit" class="btn btn-success btn-send text" value="Send">
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+  
+   </div>
+
+     
+</body>
+
+
+<footer class="bg-1 text">
+  <p class="disclaimer">Coded and designed by <strong>haszabaj</strong></p>
+</footer>
+  
+  
+</body>
+</html>
